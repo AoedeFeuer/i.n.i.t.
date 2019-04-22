@@ -1,0 +1,30 @@
+At beginning of the output the first two line are about my computer stuff:
+
+192.168.20.1 (192.168.20.1)  1.238 ms  1.008 ms  0.911 ms
+192.168.2.9 (192.168.2.9)  0.315 ms  0.254 ms  0.290 ms
+
+And then at line 3 it's possible to find the provider's(?) address and name:
+217-67-187-49.in-addr.mastertelecom.ru (217.67.187.49)  10.591 ms  4.772 ms  4.877 ms
+
+Mastertelecom sent smth to neoresurs
+mail.neoresurs.ru (217.67.176.130)  0.498 ms  0.446 ms  0.493 ms
+
+And back again:
+217-67-176-205.in-addr.mastertelecom.ru (217.67.176.205)  1.557 ms  1.613 ms  1.558 ms
+
+Worldwide provider for Russia:
+ae11-227.rt.mr.msk.ru.retn.net (87.245.253.69)  1.151 ms  1.129 ms  1.159 ms
+
+To Finland:
+ae5-8.rt.rad.hki.fi.retn.net (87.245.233.174)  16.777 ms  15.496 ms
+
+To Poland:	      
+ae13-10.rt.lim.waw.pl.retn.net (87.245.232.189)  19.254 ms
+
+And some addresses before starting to recieve *** instead of ip:
+52.95.218.176 (52.95.218.176)  19.219 ms  19.282 ms
+52.46.167.62 (52.46.167.62)  16.176 ms
+
+So, the answer is:
+NAME - 217-67-187-49.in-addr.mastertelecom.ru
+IP - 217.67.187.49

@@ -1,0 +1,10 @@
+dpkg --get-selections
+
+#--get-selections is a less verbose list of the packages
+# for more info, use dpkg -l
+
+dpkg-query -l
+
+dpkg -l
+
+apt list --installed

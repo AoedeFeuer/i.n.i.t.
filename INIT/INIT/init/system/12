@@ -1,0 +1,5 @@
+du -sh /var/*
+
+du -hd0 /var/*
+
+du -h --max-depth=0 /var/*

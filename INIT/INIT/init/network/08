@@ -1,0 +1,15 @@
+Firstly use the command from 05 (identify IP)
+
+and then with the command whois + IP we can see, that the provider is Amazon Technologies
+
+Range:       52.192.0.0 - 52.223.255.255
+CIDR:           52.192.0.0/11
+NetName:        AT-88-Z
+NetHandle:      NET-52-192-0-0-1
+Parent:         NET52 (NET-52-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:
+Organization:   Amazon Technologies Inc. (AT-88-Z)
+RegDate:        2015-09-02
+Updated:        2015-09-02
+Ref:            https://rdap.arin.net/registry/ip/52.192.0.0

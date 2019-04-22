@@ -1,0 +1,5 @@
+~/.ssh/authorized_keys
+
+Explanation
+
+The file contains public keys for public key authentication.

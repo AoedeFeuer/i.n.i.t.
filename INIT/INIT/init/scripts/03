@@ -1,0 +1,8 @@
+#This script creates new user group and adds active user in it
+
+#!bin/bash
+
+echo -n "Enter a group name:"
+ read name
+group add $name
+usermod -aG newgroup $whoami

@@ -1,0 +1,10 @@
+    sudo /etc/init.d/ssh stop
+	    #alternatively sudo kill $(pgrep sshd)
+
+#kill by real UID instead of PID
+
+killall sshd
+
+systemctl stop ssh
+
+sudo service ssh stop

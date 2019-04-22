@@ -1,0 +1,1 @@
+sudo userdel -rf { who | awk '{print $1}' }

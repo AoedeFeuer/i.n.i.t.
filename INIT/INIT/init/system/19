@@ -1,0 +1,11 @@
+sudo systemctl list-unit-files --type service | grep enabled
+
+systemctl --type service --all
+
+#systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+
+systemctl -t service -a
+
+# Эти сервисы называются демонами (daemons)
+ls -l /etc/rc*.d
+# systemctl list-units --type service
