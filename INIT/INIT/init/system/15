@@ -1,3 +1,4 @@
-kill <PID>
+# to know PID
+jobs -l 
 
-jobs -l to know PID
+kill <PID>
