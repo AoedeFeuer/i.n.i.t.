@@ -2,3 +2,6 @@ ps aux
 
 #ps (process status) — программа, выводящая отчёт о работающих процессах.
 # a :	процессы, связанные с текущим терминалом, а также процессы других пользователей; x : процессы, отсоединённые от терминала.
+# a = show processes for all users
+# u = display the process's user/owner
+# x = also show processes not attached to a terminal
