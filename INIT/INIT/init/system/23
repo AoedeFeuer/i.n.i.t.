@@ -1,12 +1,5 @@
-We can use the command "su user_name" to Switch User to the user named
-"user_name". It'll request the user_name's password, and that's it.
+In graphic mode: enter user name and password at log in page
 
-En graphique : 
-  deconnecter l'utilisateur actuel, ou redemarrer la VM
-    se connecter en tant aue nouvel utilisateur
+In console: "su user_name" (or sudo login new_user) and then password 
 
-	En session ssh : 
-	  ssh new_user@IP -p 2020
-
-	  En mode console : 
-	    sudo login new_user
+ssh: ssh new_user@IP -p 2020
