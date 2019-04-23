@@ -1,2 +1,4 @@
 host www.slash16.org
 nslookup www.slash16.org
+
+# nslookup сразу спрашивает у серверов
