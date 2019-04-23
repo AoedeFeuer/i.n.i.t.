@@ -1,11 +1,7 @@
 awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd
-	# Human users have UIDs beginning at 1000. Here, awk uses that fact to filter the passwd file.
+# Real users UIDs start from 1000. User's info is located in /etc/passwd. Here, awk uses that fact to filter the passwd file.
 
-
-user info is stored in /etc/passwd
-
-ls /home
-
-getent passwd {1000..60000}
+#getent - получает элементы из административной базы данных  
+#getent passwd {1000..60000}
 
 
