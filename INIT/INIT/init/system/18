@@ -1,5 +1,24 @@
-sudo /etc/init.d/ssh stop
+#To stop:
+#sudo /etc/init.d/ssh stop
 
-systemctl stop ssh
+#systemctl stop ssh
 
-sudo service ssh stop
+#sudo service ssh stop
+
+#To kill:
+
+kill <PID>
+
+#If you have more than one process id, you can kill all of them together by providing all the PIDs.
+#sudo kill process_id_1 process_id_2 process_id_3
+
+#or
+# sudo kill -9 `pidof programe_name` 
+#To know PID
+# pidof <program_name>
+#or
+#ps aux | grep -i “name of your desired program”
+#ps aux command returns all the running process on the system. And the grep afterwards shows the line which matches with the program name.
+
+#If you know the name of the program, you can use the magnificent killall command and kill all the processes of that program in one single command.
+#killall program_name
