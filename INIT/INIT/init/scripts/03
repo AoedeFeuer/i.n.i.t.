@@ -6,3 +6,8 @@ echo -n "Enter a group name:"
  read name
 group add $name
 usermod -aG newgroup $whoami
+
+
+#Забанить IP-адрес из списка, нужно их добавить в IP tables c правилом DROP. Эта операция осуществляется при помощи команды:
+
+$ cat bad_ip_list | xargs -I IP iptables -A INPUT -s IP -j DROP
