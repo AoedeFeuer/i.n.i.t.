@@ -1,3 +1,5 @@
+# Identify the IP address of the DNS that responds to the following url: slash16.org
+
 host www.slash16.org
 nslookup www.slash16.org
 
