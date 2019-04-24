@@ -1,3 +1,5 @@
+# Identify the network devices between your computer and the slash16.org domain
+
 traceroute www.slash16.org
 
 #Определение маршрута следования данных
