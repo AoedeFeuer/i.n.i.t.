@@ -1,3 +1,5 @@
+# Find the command that kills the background command’s process
+
 # to know PID
 jobs -l 
 
