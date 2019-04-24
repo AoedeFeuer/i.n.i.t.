@@ -1,1 +1,3 @@
+# (deduction) In what file can you find the installed version of your Debian?
+
 i can find this  in /etc/debian_version
